@@ -234,3 +234,41 @@ body {
 .view-all-btn:hover {
     background-color: #333333;
 }
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background: rgb(1, 172, 253);
+    color: #fff;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.footer div {
+    flex: 1;
+    margin: 2rem;
+}
+.footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Style for social icons */
+.social-icons a {
+    margin-right: 10px;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+.social-icons img:hover {
+    transform: scale(1.2);
+}
