@@ -272,3 +272,38 @@ body {
 .social-icons img:hover {
     transform: scale(1.2);
 }
+
+/* Mobile Styling */
+@media (max-width: 576px) {
+    .navbar .nav-links {
+        display: none;
+    }
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-content {
+        max-width: 100%;
+    }
+    .curriculum-cards {
+        flex-direction: column;
+    }
+    .curriculum .card:first-child {
+        display: none;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .other-stories-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .curriculum-cards {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .curriculum .arrow-button-group {
+        display: none;
+    }
+}
